@@ -2,7 +2,7 @@ exports.create = (req, res) => {
     res.send({ message: "create handler"});
 }
 
-exports.findALL = (req, res) => {
+exports.findAll = (req, res) => {
     res.send({ message: "findAll handler"});
 }
 
@@ -19,9 +19,10 @@ exports.delete = (req, res) => {
     res.send({ message: "delete handler"});
 }
 
-exports.deleteALL = (req, res) => {
-    res.send({ message: "deleteALL handler"});
+exports.deleteAll = (req, res) => {
+    res.send({ message: "deleteAll handler"});
 }
+
 exports.findAllFavorite = (req, res) => {
-    res.send({ message: "delete handler"});
+    res.send({ message: "findAllFavorite handler"});
 }
